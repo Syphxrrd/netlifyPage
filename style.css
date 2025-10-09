@@ -1,4 +1,45 @@
-.welcome {
-    display: flex;
+
+* {
+    font-family: 'Roboto Mono';
+}
+
+.topTitle {
     justify-content: center;
+    display: flex;
+    margin-bottom: -65px;
+    font-size: 20px;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.subtitle {
+    justify-content: center;
+    display: flex;
+}
+.gitHubButton {
+    justify-content: center;
+    display: flex;
+}
+
+.skillsTitle {
+    justify-content: center;
+    display: flex
+}
+
+.centered {
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Set your desired footer height */
+    text-align: center;
+    padding-top: 15px; /* Adjust for vertical centering */
 }
